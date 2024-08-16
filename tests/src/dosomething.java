@@ -1,4 +1,4 @@
-public class dosomething {
+public class DoSomething {
     public static void main(String[] args) throws Exception {
         int x = 3;
         String name = "Josh";
@@ -25,6 +25,19 @@ public class dosomething {
         if ((x < 3) & (name.equals("Josh"))){
             System.out.println("Hello!");
         }
-        System.out.println("This line returns no matter what.");
+        System.out.println("This line returns no matter what.\n");
+
+        loopy();
     }
-}
+    
+    public static void loopy(){
+            int x = 1;
+            System.out.println("Before the loop");
+            while (x < 4){
+                System.out.println("In the loop");                  // While Loop
+                System.out.println("Value of x is " + x);
+                x = x + 1;
+            }
+            System.out.println("This is after the loop");
+        }
+    }
