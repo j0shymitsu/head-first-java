@@ -1,8 +1,7 @@
 class Dog 
 {
-    String name;
-
     
+    String name;
     public void bark()
     {
         System.out.println(name + " says ruff!");
