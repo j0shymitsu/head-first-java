@@ -2,11 +2,14 @@ public class SimpleDotComTestDrive
 {
     public static void main(String[] args)
     {
+        SimpleDotCom dot = new SimpleDotCom();
         // DECLARE an *int array* to hold the location of the cells. Call it  "locationCells"
+        int[] locations = {2, 3, 4};
         // DECLARE an *int* to hold the number of hits. Call it "numOfHits" and SET it to 0
 
         // DECLARE a "checkYourself()"" *method* that takes a *String* for the user's guess, checks it, and returns result
         // DECLARE a "setLocationCells()" setter *method* that takes an *int array* which has 3 cell locations as *int*
+        dot.setLocationCells(locations);
 
         // METHOD: "String checkYourself(String userGuess)"
             // GET the user guess as a String parameter
