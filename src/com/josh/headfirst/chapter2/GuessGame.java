@@ -32,13 +32,13 @@ public class GuessGame
             p3.guess();
 
             guessp1 = p1.number;
-            System.out.println("com.josh.headfirst.chapter2.Player one guessed " + guessp1);
+            System.out.println("Player one guessed " + guessp1);
 
             guessp2 = p2.number;
-            System.out.println("com.josh.headfirst.chapter2.Player two guessed " + guessp2);    // Get each guess
+            System.out.println("Player two guessed " + guessp2);    // Get each guess
 
             guessp3 = p3.number;
-            System.out.println("com.josh.headfirst.chapter2.Player three guessed " + guessp3);
+            System.out.println("Player three guessed " + guessp3);
 
             // Check each guess
             if (guessp1 == targetNumber)
@@ -58,9 +58,9 @@ public class GuessGame
             if (p1isRight || p2isRight || p3isRight)
             {
                 System.out.println("We have a winner!");
-                System.out.println("com.josh.headfirst.chapter2.Player one got it right? " + p1isRight);
-                System.out.println("com.josh.headfirst.chapter2.Player two got it right? " + p2isRight);
-                System.out.println("com.josh.headfirst.chapter2.Player three got it right? " + p3isRight);
+                System.out.println("Player one got it right? " + p1isRight);
+                System.out.println("Player two got it right? " + p2isRight);
+                System.out.println("Player three got it right? " + p3isRight);
                 System.out.println("Game is over.");
                 break;
             }   

@@ -8,7 +8,7 @@ class DrumKitTestDrive
 
         d.snare = false;
 
-        if (d.snare == true)
+        if (d.snare)
         {
             d.playSnare();
         }
