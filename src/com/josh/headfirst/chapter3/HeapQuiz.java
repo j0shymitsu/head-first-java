@@ -7,7 +7,7 @@ class HeapQuiz
     public static void main(String[] args) 
     {
         int x = 0;
-        HeapQuiz[ ] hq = new HeapQuiz[5];  
+        HeapQuiz[] hq = new HeapQuiz[5];
         
         while(x < 3)
         {

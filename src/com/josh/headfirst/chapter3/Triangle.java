@@ -8,7 +8,7 @@ class Triangle
 
     void setArea()
     {
-        area = (height * length) / 2;
+        area = (double) (height * length) / 2;
     }
 
     /* MAIN METHOD */

@@ -2,12 +2,13 @@ package com.josh.headfirst.chapter3;
 
 class Dog
 {
-    
     String name;
+
     public void bark()
     {
         System.out.println(name + " says ruff!");
     }
+
     public static void main(String[] args)
     {
         // Make a dog object and access it
@@ -32,6 +33,7 @@ class Dog
 
         // Loop through array, tell dogs to bark
         int x = 0;
+
         while (x < myDogs.length)
         {
             myDogs[x].bark();

@@ -19,6 +19,7 @@ public class TestArrays
         islands[3] = "Cozumel";
 
         int ref;
+
         while(y < 4)
         {
             ref = index[y];
