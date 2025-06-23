@@ -1,38 +1,32 @@
 package com.josh.headfirst.chapter4;
 
-public class ElectricGuitar
-{
-    String brand;
-    int numOfPickups;
-    boolean rockstarUsesIt;
+public class ElectricGuitar {
+
+    private String brand;
+    private int numOfPickups;
+    private boolean rockstarUsesIt;
     
-    String getBrand()
-    {
+    public String getBrand() {
         return brand;
     }
 
-    void setBrand(String aBrand)
-    {
+    public void setBrand(String aBrand) {
         brand = aBrand;
     }
 
-    int getNumOfPickups()
-    {
+    public int getNumOfPickups() {
         return numOfPickups;
     }
 
-    void setNumOfPickups(int num)
-    {
+    public void setNumOfPickups(int num) {
         numOfPickups = num;
     }
 
-    boolean getRockStarUsesIt()
-    {
+    public boolean getRockStarUsesIt() {
         return rockstarUsesIt;
     }
 
-    void setRockstarUsesIt(boolean yesOrNo)
-    {
+    public void setRockstarUsesIt(boolean yesOrNo) {
         rockstarUsesIt = yesOrNo;
     }
 }

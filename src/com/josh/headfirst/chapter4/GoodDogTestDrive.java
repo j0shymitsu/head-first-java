@@ -6,10 +6,13 @@ class GoodDogTestDrive
     {
         GoodDog one = new GoodDog();
         one.setSize(70);
+
         GoodDog two = new GoodDog();
         two.setSize(8);
+
         System.out.println("com.josh.headfirst.chapter4.Dog one: " + one.getSize());
         System.out.println("com.josh.headfirst.chapter4.Dog two: " + two.getSize());
+
         one.bark();
         two.bark();
     }
