@@ -9,9 +9,8 @@ public class Puzzle4
         int multiplier = 1;
         int arrayIndex = 0;
         int totalSum = 0;
-        
-        
-        while(arrayIndex < 6)    // Initialise array with com.josh.headfirst.chapter4.MultiplierObject instances
+
+        while(arrayIndex < 6)    // Initialise MultiplierObject instances
         {
             multiplierObjects[arrayIndex] = new MultiplierObject();
             multiplierObjects[arrayIndex].value = multiplier;
